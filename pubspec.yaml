@@ -2,7 +2,7 @@ name: test_package
 description: "Test Flutter Package"
 version: 0.0.1
 
-homepage: "https://google.com"
+repository: "https://github.com/RapThorDev/test_package"
 
 publish_to: http://localhost:4000
 
