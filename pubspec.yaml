@@ -1,10 +1,30 @@
 name: test_package
-description: "Test Flutter Package"
-version: 0.0.1
+version: 0.0.1+001
 
+description: "Test Flutter Package"
+
+homepage: "https://github.com/RapThorDev/test_package"
 repository: "https://github.com/RapThorDev/test_package"
+issue_tracker: "https://github.com/RapThorDev/test_package/issues"
+documentation: "https://github.com/RapThorDev/test_package"
 
 publish_to: http://localhost:4000
+
+funding:
+  - https://www.patreon.com
+  - https://buymeacoffee.com
+
+topics:
+  - codegen
+  - dotenv
+
+screenshots:
+  - description: 'Max 10 screenshots. Every screenshot has a description and a path. Description no more than 160 chars. 4 MB max per image, png, jpg, gif, webp'
+    path: assets/img/image001.png
+  - description: 'image002.png description'
+    path: assets/img/image002.jpg
+  - description: 'This is another screenshot to the test package.'
+    path: assets/img/image003.jpg
 
 environment:
   sdk: '>=3.4.0 <4.0.0'
